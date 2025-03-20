@@ -5,5 +5,14 @@
 - [ ] Creational
     - [x] Singleton
     - [ ] Builder
+    - [ ] Factory
+    - [ ] Abstract Factory
+    - [ ] Prototype
 - [ ] Structural
 - [ ] Behavioral
+
+## Multithreading
+- [x] Basic Concurrency
+- [ ] Synchronisation
+- [ ] Thread Pool
+- [ ] Async Programming

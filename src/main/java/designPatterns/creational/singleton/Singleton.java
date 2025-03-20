@@ -8,11 +8,9 @@ public class Singleton {
         System.out.println("Singleton Constructor");
     }
 
-    public static Singleton getInstance() {
-        synchronized (Singleton.class) {
-            if (instance == null) {
-                instance = new Singleton();
-            }
+    public synchronized static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
         }
         return instance;
     }
