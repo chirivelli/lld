@@ -1,4 +1,4 @@
-package multithreading.threadpool;
+package multithreading.threadPool;
 
 import multithreading.Task;
 

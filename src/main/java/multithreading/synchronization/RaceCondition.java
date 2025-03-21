@@ -1,20 +1,17 @@
 package multithreading.synchronization;
 
 public class RaceCondition {
-
-    public static int count = 0;
-
     public static void main(String[] args) throws InterruptedException {
-
+        Counter counter = new Counter();
         Thread one = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
-                count++;
+                counter.increment();
             }
         });
 
         Thread two = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
-                count++;
+                counter.increment();
             }
         });
 
@@ -23,7 +20,7 @@ public class RaceCondition {
 
         one.join();
         two.join();
-        System.out.println("count : " + count); // not equal to 20,000
+        System.out.println("count : " + counter.getCount()); // not equal to 20,000
     }
 }
 

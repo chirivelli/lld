@@ -12,7 +12,9 @@
 - [ ] Behavioral
 
 ## Multithreading
-- [x] Basic Concurrency
+- [x] Concurrency
 - [ ] Synchronisation
+  - [ ] Synchronised Collections
+- [ ] Thread Communication
 - [ ] Thread Pool
 - [ ] Async Programming
