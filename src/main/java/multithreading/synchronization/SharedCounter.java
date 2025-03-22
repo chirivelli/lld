@@ -1,6 +1,6 @@
 package multithreading.synchronization;
 
-public class Counter {
+public class SharedCounter {
     private int count = 0;
 
     public void increment() {
