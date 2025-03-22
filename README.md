@@ -15,6 +15,6 @@
 - [x] Concurrency
 - [ ] Synchronisation
   - [ ] Synchronised Collections
-- [ ] Thread Communication
+- [x] Thread Communication
 - [ ] Thread Pool
 - [ ] Async Programming
