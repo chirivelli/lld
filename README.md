@@ -14,7 +14,9 @@
 ## Multithreading
 - [x] Concurrency
 - [ ] Synchronisation
+  - [ ] synchronised block
   - [ ] Synchronised Collections
+  - [ ] Locks
 - [x] Thread Communication
 - [ ] Thread Pool
 - [ ] Async Programming
