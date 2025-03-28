@@ -13,10 +13,10 @@
 
 ## Multithreading
 - [x] Concurrency
-- [ ] Synchronisation
+- [ ] Synchronisation / Mutual Exclusion
   - [ ] synchronised block
-  - [ ] Synchronised Collections
   - [ ] Locks
+  - [ ] Synchronised Collections
 - [x] Thread Communication
 - [ ] Thread Pool
 - [ ] Async Programming
