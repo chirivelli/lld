@@ -16,6 +16,7 @@
 - [ ] Synchronisation / Mutual Exclusion
   - [ ] synchronised block
   - [ ] Locks
+  - [ ] Semaphore
   - [ ] Synchronised Collections
 - [x] Thread Communication
 - [ ] Thread Pool
